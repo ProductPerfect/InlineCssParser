@@ -179,7 +179,10 @@ namespace InlineCssParser
 
         private string CreateUniqueElementKey(string name, int lineNumber)
         {
-            return string.Format("{0}_line_{1}", name, lineNumber);
+            Random r = new Random();
+            var randomNumber = r.Next(1000, 9999);
+            //now with the random number this should be fully unique across all other files...
+            return string.Format("{0}_line_{1}_random_{2}", name, lineNumber, randomNumber.ToString());
         }
     }
 }

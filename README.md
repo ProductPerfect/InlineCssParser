@@ -8,11 +8,7 @@ https://marketplace.visualstudio.com/items?itemName=SuatKOSE.InlineStyleParserfo
 
 Supporting .html, .aspx and .cshtml file formats.
 
-Just right click on a html file source code and extract all inline styles into a separate css file. See the attached screenshots below.
-
-Please let me know if you realize that something is wrong.
-
-Thank you.
+Just right click on a html, aspx, or csHTML file's **source code** (not from the solution explorer, from the actual markup in the editor), and see the context menu to extract all inline styles into a separate css file. See the attached screenshots below.
 
 <p><span style="font-size:small"><strong><span style="background-color:#ffffff">1-Sample Html</span></strong></span></p>
 <p><span style="font-size:small"><strong><span style="background-color:#ffffff">
